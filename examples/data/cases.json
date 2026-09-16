@@ -1,0 +1,31 @@
+{
+  "threshold": 0.766583780987215,
+  "cases": [
+    {
+      "sequence": "dancetrack0010",
+      "predecessor": 1,
+      "successor": 8,
+      "candidate_index": 0,
+      "candidate_count": 5,
+      "score": 0.8562073318475767,
+      "accepted": true,
+      "accepted_indices": [
+        0
+      ],
+      "verified_rows": 6659
+    },
+    {
+      "sequence": "dancetrack0081",
+      "predecessor": 56,
+      "successor": 61,
+      "candidate_index": 101,
+      "candidate_count": 106,
+      "score": 0.3604067756102694,
+      "accepted": false,
+      "accepted_indices": [
+        72
+      ],
+      "verified_rows": 16626
+    }
+  ]
+}
