@@ -1,0 +1,45 @@
+{
+  "passes": true,
+  "tests_passed": 18,
+  "install_test": "Built and installed wheel without changing dependencies",
+  "model_sha256": "591eb500bb8c1202183374616745acf2c9b9a113ed6e0e355e0843788a87c65a",
+  "real_sequences": [
+    {
+      "sequence": "dancetrack0010",
+      "threshold": 0.766583780987215,
+      "candidate_count": 5,
+      "selected_count": 1,
+      "row_count": 6659,
+      "only_ids_changed": true,
+      "links": [
+        {
+          "predecessor": 1,
+          "successor": 8,
+          "score": 0.8562073318475767
+        }
+      ],
+      "exact_feature_equivalence": true,
+      "saved_output_matches": true
+    },
+    {
+      "sequence": "dancetrack0081",
+      "threshold": 0.766583780987215,
+      "candidate_count": 106,
+      "selected_count": 1,
+      "row_count": 16626,
+      "only_ids_changed": true,
+      "links": [
+        {
+          "predecessor": 34,
+          "successor": 45,
+          "score": 0.7692075983035488
+        }
+      ],
+      "exact_feature_equivalence": true,
+      "saved_output_matches": true
+    }
+  ],
+  "original_protected_files_unchanged": 972,
+  "scope": "Installed release replay and full feature reconstruction from the original trusted local descriptor caches; caches are not distributed.",
+  "license": "No open-source license selected by the owner."
+}

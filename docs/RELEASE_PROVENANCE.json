@@ -1,0 +1,190 @@
+[
+  {
+    "source": "src/trackcal/tracklet_repair.py",
+    "release": "src/trackrelink/tracklet_repair.py",
+    "source_sha256": "53b67074d2be7e4576d833d3f56ac4b2dece3daf3ed276be7429475edaab4baa",
+    "release_sha256": "89a04fe331c2fb1cc60a7acbdb9523f2979d74691da8454e62d712800b96ce52",
+    "changes": [
+      [
+        "trackcal.",
+        "trackrelink."
+      ],
+      [
+        "FULL_TRACKCAL_R_FEATURE_NAMES",
+        "FULL_TRACKRELINK_FEATURE_NAMES"
+      ],
+      [
+        "TrackCal-R",
+        "TrackRelink"
+      ],
+      [
+        "from .counterfactual_memory import box_iou",
+        "from .geometry import box_iou"
+      ]
+    ]
+  },
+  {
+    "source": "src/trackcal/repair_features.py",
+    "release": "src/trackrelink/repair_features.py",
+    "source_sha256": "02b0a00e1f05f2b7551b47e1f7e46aa4c223dc5a5a7983daca98044b89bbfc8d",
+    "release_sha256": "2f2f83973fe135d26dae300972c0ff0db1a55305bcec45b1cedaf486a0817db6",
+    "changes": [
+      [
+        "trackcal.",
+        "trackrelink."
+      ],
+      [
+        "FULL_TRACKCAL_R_FEATURE_NAMES",
+        "FULL_TRACKRELINK_FEATURE_NAMES"
+      ],
+      [
+        "TrackCal-R",
+        "TrackRelink"
+      ]
+    ]
+  },
+  {
+    "source": "src/trackcal/repair_model.py",
+    "release": "src/trackrelink/repair_model.py",
+    "source_sha256": "ca0e1ea50553a482402cc2a890f9c009bad4f138269bcc5ab043a3ca60a0f8dc",
+    "release_sha256": "ca0e1ea50553a482402cc2a890f9c009bad4f138269bcc5ab043a3ca60a0f8dc",
+    "changes": [
+      [
+        "trackcal.",
+        "trackrelink."
+      ],
+      [
+        "FULL_TRACKCAL_R_FEATURE_NAMES",
+        "FULL_TRACKRELINK_FEATURE_NAMES"
+      ],
+      [
+        "TrackCal-R",
+        "TrackRelink"
+      ]
+    ]
+  },
+  {
+    "source": "tests/test_tracklet_repair.py",
+    "release": "tests/test_tracklet_repair.py",
+    "source_sha256": "fba7d38a5ba19b1d309f78363b4c79cc6906b3291ad3c1c8ee4414d9f340ec64",
+    "release_sha256": "461d3b51600f2dcabc620eacf2bd5c5173dbb9cdaf05a52fb196efd5323d0348",
+    "changes": [
+      [
+        "trackcal.",
+        "trackrelink."
+      ],
+      [
+        "FULL_TRACKCAL_R_FEATURE_NAMES",
+        "FULL_TRACKRELINK_FEATURE_NAMES"
+      ],
+      [
+        "TrackCal-R",
+        "TrackRelink"
+      ]
+    ]
+  },
+  {
+    "source": "tests/test_repair_model.py",
+    "release": "tests/test_repair_model.py",
+    "source_sha256": "344b08aea8dd78db52fba332ee4ccaa143053a88b8c315b75caa5e40a62fd6b9",
+    "release_sha256": "a7b76f08ea51f452b55f105f624398ce82b1ca2f06715421c45f7a2e97334d2d",
+    "changes": [
+      [
+        "trackcal.",
+        "trackrelink."
+      ],
+      [
+        "FULL_TRACKCAL_R_FEATURE_NAMES",
+        "FULL_TRACKRELINK_FEATURE_NAMES"
+      ],
+      [
+        "TrackCal-R",
+        "TrackRelink"
+      ]
+    ]
+  },
+  {
+    "source": "outputs/models/tracklet_bidirectional_frozen_v1.npz",
+    "release": "models/trackrelink_frozen.npz",
+    "source_sha256": "591eb500bb8c1202183374616745acf2c9b9a113ed6e0e355e0843788a87c65a",
+    "release_sha256": "591eb500bb8c1202183374616745acf2c9b9a113ed6e0e355e0843788a87c65a",
+    "changes": []
+  },
+  {
+    "source": "manuscript/revision_v30/figures/method_overview.png",
+    "release": "figures/method_overview.png",
+    "source_sha256": "f567759289539acf589a2989a8026c4b38cc7d8f393946d30c7d814d1f6c9481",
+    "release_sha256": "f567759289539acf589a2989a8026c4b38cc7d8f393946d30c7d814d1f6c9481",
+    "changes": []
+  },
+  {
+    "source": "manuscript/revision_v30/figures/method_overview.pdf",
+    "release": "figures/method_overview.pdf",
+    "source_sha256": "85842b35fea6700f2f5c8ce99c93cf21b18d97ef262cab722c14c1b151864938",
+    "release_sha256": "85842b35fea6700f2f5c8ce99c93cf21b18d97ef262cab722c14c1b151864938",
+    "changes": []
+  },
+  {
+    "source": "manuscript/revision_v30/figures/competition_vs_pairwise.png",
+    "release": "figures/competition_vs_pairwise.png",
+    "source_sha256": "0193132ee1b1f842df19d4add56e190efc56ea12bb3b6b0dae67f6248ebfbfd2",
+    "release_sha256": "0193132ee1b1f842df19d4add56e190efc56ea12bb3b6b0dae67f6248ebfbfd2",
+    "changes": []
+  },
+  {
+    "source": "manuscript/revision_v30/figures/competition_vs_pairwise.pdf",
+    "release": "figures/competition_vs_pairwise.pdf",
+    "source_sha256": "1c03dd5d333b817ab6b892fbcd49cea82c0de865cc5b0114baaec53d58f6c875",
+    "release_sha256": "1c03dd5d333b817ab6b892fbcd49cea82c0de865cc5b0114baaec53d58f6c875",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0010_features.npz",
+    "release": "examples/data/dancetrack0010_features.npz",
+    "source_sha256": "9fca47aeac12dc4fede391eafb8dceef87548a1a68d377f7e5ddf34e2cfb8c01",
+    "release_sha256": "9fca47aeac12dc4fede391eafb8dceef87548a1a68d377f7e5ddf34e2cfb8c01",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0010_host.txt",
+    "release": "examples/data/dancetrack0010_host.txt",
+    "source_sha256": "b3332a9b3ef38d0c1af9cc895e3abe94fc6c8cec36106a58f082ac6244bec49c",
+    "release_sha256": "b3332a9b3ef38d0c1af9cc895e3abe94fc6c8cec36106a58f082ac6244bec49c",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0010_F.txt",
+    "release": "examples/data/dancetrack0010_F.txt",
+    "source_sha256": "56076f67daad20e4ce8f46dcb450517f885e4555ca6f98f475561300ab8dad3e",
+    "release_sha256": "56076f67daad20e4ce8f46dcb450517f885e4555ca6f98f475561300ab8dad3e",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0081_features.npz",
+    "release": "examples/data/dancetrack0081_features.npz",
+    "source_sha256": "6b3ad86629d905ff6f562e1814e721a767984375989cd450cac312d0b20a200a",
+    "release_sha256": "6b3ad86629d905ff6f562e1814e721a767984375989cd450cac312d0b20a200a",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0081_host.txt",
+    "release": "examples/data/dancetrack0081_host.txt",
+    "source_sha256": "34c4e3d64e1aee8d61205a3480e42b840c8c5d118bb611f57a073cf20aaac3e7",
+    "release_sha256": "34c4e3d64e1aee8d61205a3480e42b840c8c5d118bb611f57a073cf20aaac3e7",
+    "changes": []
+  },
+  {
+    "source": "experiments/revision_v24/inputs/dancetrack0081_F.txt",
+    "release": "examples/data/dancetrack0081_F.txt",
+    "source_sha256": "aff653f221911b6c34bb1c7d956bfce45e9a91a94a50f4a9199757d0639e90c4",
+    "release_sha256": "aff653f221911b6c34bb1c7d956bfce45e9a91a94a50f4a9199757d0639e90c4",
+    "changes": []
+  },
+  {
+    "source": "configs/splits/dancetrack_trackcal_v1.json",
+    "release": "configs/dancetrack_split.json",
+    "source_sha256": "52bb11ea68fc07664caecb35548af68ff106841420999bcb64165798b55c97ac",
+    "release_sha256": "52bb11ea68fc07664caecb35548af68ff106841420999bcb64165798b55c97ac",
+    "changes": []
+  }
+]

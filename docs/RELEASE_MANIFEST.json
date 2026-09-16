@@ -1,0 +1,166 @@
+{
+  "public_repository": "https://github.com/Roy-spe/TrackRelink",
+  "release_scope": "Frozen inference, real example replay, figures and results",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 159,
+      "sha256": "98b16fe47e6f5e7f9e0664b78a3f70ce56e836dd585dcc554ed2d7c7ad4c0ada"
+    },
+    {
+      "path": "configs/dancetrack_split.json",
+      "bytes": 2570,
+      "sha256": "52bb11ea68fc07664caecb35548af68ff106841420999bcb64165798b55c97ac"
+    },
+    {
+      "path": "docs/RELEASE_PROVENANCE.json",
+      "bytes": 6720,
+      "sha256": "f7aba24b7c090b0f131cce97da1a12ebaef084be11f2ff4c8e2aeaa36d6574ed"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 5559,
+      "sha256": "ac3b96db49ef37e8e81320b8289746dcee26fde72cfd8f049412e307d15d7adf"
+    },
+    {
+      "path": "docs/VERIFICATION.json",
+      "bytes": 1365,
+      "sha256": "22a83b75a27e0c282d2a4e4370388fb939d7efa15e9e0e06e7a016eab21f7101"
+    },
+    {
+      "path": "examples/data/cases.json",
+      "bytes": 633,
+      "sha256": "853e8253287d8b67cbfafa9cb87f906cf8485f0db77a29489dbfd1dbe96376f2"
+    },
+    {
+      "path": "examples/data/dancetrack0010_F.txt",
+      "bytes": 283066,
+      "sha256": "56076f67daad20e4ce8f46dcb450517f885e4555ca6f98f475561300ab8dad3e"
+    },
+    {
+      "path": "examples/data/dancetrack0010_features.npz",
+      "bytes": 1594,
+      "sha256": "9fca47aeac12dc4fede391eafb8dceef87548a1a68d377f7e5ddf34e2cfb8c01"
+    },
+    {
+      "path": "examples/data/dancetrack0010_host.txt",
+      "bytes": 303043,
+      "sha256": "b3332a9b3ef38d0c1af9cc895e3abe94fc6c8cec36106a58f082ac6244bec49c"
+    },
+    {
+      "path": "examples/data/dancetrack0081_F.txt",
+      "bytes": 694164,
+      "sha256": "aff653f221911b6c34bb1c7d956bfce45e9a91a94a50f4a9199757d0639e90c4"
+    },
+    {
+      "path": "examples/data/dancetrack0081_features.npz",
+      "bytes": 15146,
+      "sha256": "6b3ad86629d905ff6f562e1814e721a767984375989cd450cac312d0b20a200a"
+    },
+    {
+      "path": "examples/data/dancetrack0081_host.txt",
+      "bytes": 744042,
+      "sha256": "34c4e3d64e1aee8d61205a3480e42b840c8c5d118bb611f57a073cf20aaac3e7"
+    },
+    {
+      "path": "examples/replay_figure1.py",
+      "bytes": 2774,
+      "sha256": "4472a4cbaea788899f5ccaa583e81de1b7245a6ccb3f83143cd3b958165c121a"
+    },
+    {
+      "path": "figures/competition_vs_pairwise.pdf",
+      "bytes": 19423,
+      "sha256": "1c03dd5d333b817ab6b892fbcd49cea82c0de865cc5b0114baaec53d58f6c875"
+    },
+    {
+      "path": "figures/competition_vs_pairwise.png",
+      "bytes": 85954,
+      "sha256": "0193132ee1b1f842df19d4add56e190efc56ea12bb3b6b0dae67f6248ebfbfd2"
+    },
+    {
+      "path": "figures/method_overview.pdf",
+      "bytes": 1099566,
+      "sha256": "85842b35fea6700f2f5c8ce99c93cf21b18d97ef262cab722c14c1b151864938"
+    },
+    {
+      "path": "figures/method_overview.png",
+      "bytes": 496023,
+      "sha256": "f567759289539acf589a2989a8026c4b38cc7d8f393946d30c7d814d1f6c9481"
+    },
+    {
+      "path": "models/trackrelink_frozen.npz",
+      "bytes": 3100,
+      "sha256": "591eb500bb8c1202183374616745acf2c9b9a113ed6e0e355e0843788a87c65a"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 433,
+      "sha256": "f9ac18e68696b9c0b20550f096195b6b43771301aaef561c2459f77b1a86d280"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6228,
+      "sha256": "483465da1a1c173e8100eeb30416c654f094c6a31e2b0bcd166fac9266229fe3"
+    },
+    {
+      "path": "results/frozen_metrics.json",
+      "bytes": 53854,
+      "sha256": "cf598363632433a059db8593241f06e68d38743126889766fac0c94f88fdccdb"
+    },
+    {
+      "path": "src/trackrelink/__init__.py",
+      "bytes": 96,
+      "sha256": "c060c66c01212dab8352603e27f36159b0ec2c080f8241e1c1325aeac35d4832"
+    },
+    {
+      "path": "src/trackrelink/cli.py",
+      "bytes": 1223,
+      "sha256": "0d68d2cc46c48decf2a17b2609e99a8a3f994a6322394ffb1448cb7a29d74b4c"
+    },
+    {
+      "path": "src/trackrelink/geometry.py",
+      "bytes": 1240,
+      "sha256": "4342a0270fda69386ab5e5b24be2f841ea03a6e55330d8992c52e2760a35401e"
+    },
+    {
+      "path": "src/trackrelink/inference.py",
+      "bytes": 4565,
+      "sha256": "08260ddb938f14575faaa6d700460aae31bde741c2a16df9dbafa131bb3e2d2d"
+    },
+    {
+      "path": "src/trackrelink/repair_features.py",
+      "bytes": 3694,
+      "sha256": "2f2f83973fe135d26dae300972c0ff0db1a55305bcec45b1cedaf486a0817db6"
+    },
+    {
+      "path": "src/trackrelink/repair_model.py",
+      "bytes": 6934,
+      "sha256": "ca0e1ea50553a482402cc2a890f9c009bad4f138269bcc5ab043a3ca60a0f8dc"
+    },
+    {
+      "path": "src/trackrelink/tracklet_repair.py",
+      "bytes": 37482,
+      "sha256": "89a04fe331c2fb1cc60a7acbdb9523f2979d74691da8454e62d712800b96ce52"
+    },
+    {
+      "path": "tests/test_inference.py",
+      "bytes": 1391,
+      "sha256": "442d6a23c3066f67c59134a02f2b5c945cf566e52d1286ad8fc5b7de067f3677"
+    },
+    {
+      "path": "tests/test_repair_model.py",
+      "bytes": 1399,
+      "sha256": "a7b76f08ea51f452b55f105f624398ce82b1ca2f06715421c45f7a2e97334d2d"
+    },
+    {
+      "path": "tests/test_tracklet_repair.py",
+      "bytes": 8006,
+      "sha256": "461d3b51600f2dcabc620eacf2bd5c5173dbb9cdaf05a52fb196efd5323d0348"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1701,
+      "sha256": "019c9c22d09fcebbac7d7b35519b0f4e154bb26438c32b350d51f79317cbc9d1"
+    }
+  ]
+}
