@@ -42,7 +42,7 @@ Provide one sequence in MOT CSV format and an NPZ archive of cached, time-ordere
 trackrelink --tracks host.txt --embeddings embeddings.npz --model models/trackrelink_frozen.npz --output outputs/repaired.txt
 ```
 
-Each MOT row starts with `frame,id,x,y,width,height`; remaining fields are retained. An embedding archive can be constructed with `numpy.savez("embeddings.npz", **{"1": descriptors_for_track_1, "8": descriptors_for_track_8})`, where each matrix has shape `observations × descriptor_dimension`. Use descriptors from the host's matched detections, in temporal order, with the same descriptor dimension across tracks. See [the input contract](docs/REPRODUCIBILITY.md) for the exact scope and restrictions. The bundled model was fitted for the recorded protocol; changing the host or descriptor model changes its input distribution.
+Each MOT row starts with `frame,id,x,y,width,height`; remaining fields are retained. An embedding archive can be constructed with `numpy.savez("embeddings.npz", **{"1": descriptors_for_track_1, "8": descriptors_for_track_8})`, where each matrix has shape `observations × descriptor_dimension`. Use descriptors from the host's matched detections, in temporal order, with the same descriptor dimension across tracks. Track IDs must be numeric, box dimensions positive, and each ID/frame pair unique. Internal gaps do not split a tracklet; missing descriptors use the unavailable-appearance representation. The bundled model was fitted for the recorded protocol; changing the host or descriptor model changes its input distribution.
 
 ## Results and interpretation
 
@@ -53,7 +53,7 @@ On the same 25 explored DanceTrack validation videos:
 | Deep OC-SORT | +1.225 | +1.064 [0.454, 1.783] |
 | StrongSORT-derived | +0.617 | +0.580 [0.096, 1.172] |
 
-Values are metric-point changes, not percentages. Pooled metrics and video-macro differences are different estimands. See [frozen metrics](results/frozen_metrics.json) for the per-video values and [research scope](docs/REPRODUCIBILITY.md) for interpretation.
+Values are metric-point changes, not percentages. Pooled metrics and video-macro differences are different estimands. See [frozen metrics](results/frozen_metrics.json) for the per-video values.
 
 Pairwise repair also improves both hosts. General superiority of the added reciprocal features is **not established**. Whole-trajectory reliability remains unresolved: the original 30 selected links include 18 unresolved under the training-label rule; the second host has conflicting as well as unresolved actions. A training-only boundary gate selected no actions. Shared upstream inputs, explored videos and upstream training overlap limit generalization. Separate calibration diagnostics do not drive repair, and **q is not asserted to be a calibrated probability**.
 
@@ -70,9 +70,8 @@ This second figure shows the eight videos with nonzero changes; the other 17 vid
 - `results/`: frozen pooled and per-video numerical summaries.
 - `configs/`: recorded dataset split.
 - `tests/`: core algorithm and public-interface checks.
-- `docs/`: input contract, provenance and release verification.
 
-The public namespace is `trackrelink`. Source provenance records the mechanical namespace changes from the internal research implementation. Model parameters, feature order, candidate gates and selection rules are unchanged.
+The public namespace is `trackrelink`. It was adapted mechanically from the internal research implementation. Model parameters, feature order, candidate gates and selection rules are unchanged.
 
 ## License and attribution
 
